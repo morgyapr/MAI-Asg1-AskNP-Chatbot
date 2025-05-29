@@ -1,1 +1,1 @@
-# mai-asg1-asknp-chatbot
+# MAI-Asg1-AskNP-Chatbot
