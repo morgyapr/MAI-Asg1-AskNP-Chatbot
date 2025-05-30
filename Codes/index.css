@@ -771,3 +771,164 @@ header {
       transform: translateY(0);
     }
   }
+
+  /* MOBILE PHONE MEDIA QUERY */
+@media (max-width: 480px) {
+  /* Header */
+  header {
+    padding: 10px 15px;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .logo-placeholder {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .club-details {
+    min-width: auto;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .club-details h1 {
+    font-size: 1.1rem;
+  }
+
+  .club-details p {
+    font-size: 0.75rem;
+  }
+
+  /* Navigation */
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+
+  /* Dropdown menu */
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border-radius: 0;
+    min-width: 100%;
+    background-color: #fff;
+    padding: 0;
+  }
+
+  .dropdown-menu li a {
+    padding: 10px;
+  }
+
+  /* Image */
+  .image {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #top-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Carousel */
+  .carousel {
+    height: 200px;
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  .carousel-control {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  /* FoodAID Calendar */
+  #foodAID-calendar {
+    padding: 15px;
+    max-width: 100%;
+    margin: 10px;
+  }
+
+  #foodAID-calendar h2 {
+    font-size: 1.5rem;
+  }
+
+  #foodAID-calendar p {
+    font-size: 0.85rem;
+  }
+
+  /* Calendar Events */
+  .fc-event {
+    font-size: 0.65rem;
+    padding: 2px 4px;
+  }
+
+  .fc-daygrid-day-top {
+    font-size: 10px;
+  }
+
+  /* Contact Us Section */
+  .container {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  input[type=text],
+  input[type=email],
+  select,
+  textarea {
+    padding: 10px;
+  }
+
+  input[type=submit] {
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .column {
+    min-width: 100%;
+  }
+
+  /* Success Page */
+  .success-box {
+    padding: 20px 15px;
+    max-width: 90%;
+  }
+
+  .success-box h1 {
+    font-size: 1.4rem;
+  }
+
+  .success-box p {
+    font-size: 1rem;
+  }
+
+  .success-box button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  /* Footer */
+  footer {
+    padding: 15px 10px;
+    font-size: 0.8rem;
+  }
+}
